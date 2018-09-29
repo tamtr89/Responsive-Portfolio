@@ -232,17 +232,20 @@ input[type=submit] {
 /* Medium */
 @media screen and (max-width: 768px) {
   .main-section {
-    width: 100%;
+    width: 90%;
+    margin: 0 5% 0 5%;
   }
   .auth-image {
     width: 50%;
   } 
+
 }
 
 /* Small */
 @media screen and (max-width: 640px) {
   .main-section{
-    width: 100%;
+    width: 90%;
+    margin: 0 5% 0 5%;
   }
   #main-container {
     padding-top: 0;

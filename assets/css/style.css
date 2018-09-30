@@ -6,6 +6,7 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -269,5 +270,52 @@ input[type=submit] {
   }
 }
 
+/* Bonus */
 
+.main-section {
+  background: #ffffff;
+  animation-name: change;
+  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes change {
+  from {
+    background: #ffffff;
+  }
+
+  to {
+    background: #1f5346;
+    color: #efefefde;
+    font-style: italic;
+    
+  }
+}
+
+#logo {
+  background: #4aaaa5;
+  animation-name: tam;
+  animation-duration: 12s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes tam {
+  0% {
+    background: #4aaaa5;
+  }
+
+    0%   {background-color: rgb(109, 4, 0);}
+    25%  {background-color: rgb(138, 78, 0);}
+    50%  {background-color: rgb(156, 133, 0);}
+    100% {background-color: rgb(96, 117, 3);}
+  
+  70% {
+    font-family: 'Permanent Marker', cursive;
+  }
+    
+  
+    
+  
+}
 
